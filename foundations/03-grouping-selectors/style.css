@@ -1,6 +1,10 @@
-.btn {
+.click,
+.no-click {
   font-size: 28px;
   font-family: "helvetica", "Times New Roman", sans-serif;
+}
+.btn:hover {
+  cursor: pointer;
 }
 .click {
   background-color: black;
