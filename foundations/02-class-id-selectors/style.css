@@ -1,0 +1,21 @@
+.odd-numbers {
+  color: black;
+  background: hsl(0, 98%, 51%, 0.4);
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+  font-size: 2rem;
+}
+.n1 {
+  font-size: 2rem;
+}
+#n2 {
+  color: blue;
+  font-size: 36px;
+}
+.n3 {
+  font-size: 3rem;
+}
+#n4 {
+  background-color: hsl(120, 100%, 25%, 0.4);
+  font-weight: bold;
+  font-size: 2rem;
+}
