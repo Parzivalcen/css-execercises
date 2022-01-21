@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-html, body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* My Solution */
+html,
+body {
   height: 100%;
 }
 
@@ -19,13 +20,14 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
 }
 
 .icon {
   color: royalblue;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 900;
   background: lavender;
   width: 42px;
   height: 42px;
@@ -39,13 +41,28 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 16px;
   height: 24px;
   width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-inline-start: auto;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+}
+.title {
+  font-size: 16px;
+}
+.info {
+  margin-inline-start: 3.5rem;
+}
+.info p {
+  margin-top: 0;
 }
 
 button {
@@ -58,9 +75,22 @@ button.continue {
   border: 1px solid royalblue;
   color: white;
 }
+button.continue:hover {
+  background: rgb(97, 128, 223);
+  border: 1px solid rgb(97, 128, 223);
+  color: white;
+  cursor: pointer;
+}
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+button.cancel:hover {
+  background: rgb(206, 206, 206);
+  border: 1px solid #ddd;
+  color: royalblue;
+  cursor: pointer;
 }
